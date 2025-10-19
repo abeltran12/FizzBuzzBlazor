@@ -1,0 +1,9 @@
+<div class="col text-center border border-light p-1 @Item">
+    @Item
+</div>
+
+@code {
+    [Parameter, EditorRequired]
+    public string Item { get; set; } = "";
+
+}
